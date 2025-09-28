@@ -30,13 +30,13 @@ int main() {
 
     printf("Bibioteca: %s\n", bibliotecaDoCentro.nome);
     printf("Endereco: %s, %d, %s, %s, %s\n",
-bibliotecaDoCentro.enderecoBiblioteca.rua, bibliotecaDoCentro.enderecoBiblioteca.numero, bibliotecaDoCentro.enderecoBiblioteca.cidade,
-bibliotecaDoCentro.enderecoBiblioteca.estado, bibliotecaDoCentro.enderecoBiblioteca.cep
-);
-printf("Livro Cadastrado: %s \n", bibliotecaDoCentro.livroBiblioteca.titulo);
-printf("Ano de Publicacao: %d \n", bibliotecaDoCentro.livroBiblioteca.ano);
-printf("Autor do livro: %s \n", bibliotecaDoCentro.livroBiblioteca.autor);
-printf("ISBN: %s", bibliotecaDoCentro.livroBiblioteca.ISBN);
+		bibliotecaDoCentro.enderecoBiblioteca.rua, bibliotecaDoCentro.enderecoBiblioteca.numero, bibliotecaDoCentro.enderecoBiblioteca.cidade,
+		bibliotecaDoCentro.enderecoBiblioteca.estado, bibliotecaDoCentro.enderecoBiblioteca.cep
+	);
+	printf("Livro Cadastrado: %s \n", bibliotecaDoCentro.livroBiblioteca.titulo);
+	printf("Ano de Publicacao: %d \n", bibliotecaDoCentro.livroBiblioteca.ano);
+	printf("Autor do livro: %s \n", bibliotecaDoCentro.livroBiblioteca.autor);
+	printf("ISBN: %s", bibliotecaDoCentro.livroBiblioteca.ISBN);
 
     return 0;
 }
